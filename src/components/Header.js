@@ -10,16 +10,16 @@ const Header = ({ activeSection, handleNavClick, isMenuOpen, toggleMenu }) => {
   ];
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-gray-800 shadow-md">
       <nav className="container mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-semibold text-gray-700">Nhan Nguyen</div>
+          <div className="text-xl font-semibold text-white">Nhan Nguyen</div>
           <div className="hidden md:flex space-x-4">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className={`text-gray-600 hover:text-gray-900 transition duration-300 ${
+                className={`text-white hover:text-yellow-300 transition duration-300 ${
                   activeSection === item.id ? "font-semibold" : ""
                 }`}
               >
