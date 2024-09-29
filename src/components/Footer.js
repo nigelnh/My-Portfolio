@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -13,8 +13,8 @@ const Footer = () => {
           <a href="https://linkedin.com/in/nhan-nguyen-374543248" className="hover:text-gray-300 transition duration-300">
             <FaLinkedin size={24} />
           </a>
-          <a href="#" className="hover:text-gray-300 transition duration-300">
-            <FaGoogle size={24} />
+          <a href="https://www.facebook.com/profile.php?id=100052272098134" className="hover:text-gray-300 transition duration-300">
+            <FaFacebook size={24} />
           </a>
         </div>
       </div>
