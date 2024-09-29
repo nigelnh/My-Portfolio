@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }],
+  "env": {
+    "REACT_APP_EMAIL_USER": "@react_app_email_user",
+    "REACT_APP_EMAIL_PASS": "@react_app_email_pass"
+  }
+}
